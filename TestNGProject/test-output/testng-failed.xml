@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignment.november5.AssignmentNovember5">
+      <class name="test.script.Assertion">
         <methods>
           <include name="driverQuitAndClose"/>
-          <include name="alertPopup"/>
           <include name="initializeBrowser"/>
+          <include name="assertNotEqualsTest"/>
         </methods>
-      </class> <!-- assignment.november5.AssignmentNovember5 -->
+      </class> <!-- test.script.Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

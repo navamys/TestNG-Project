@@ -38,7 +38,7 @@ public class AssignmentNovember5 extends Base {
 		driver.navigate().to("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
 		WebElement selectcountry=driver.findElement(By.tagName("select")); 
 		Select select=new Select(selectcountry); 
-		select.selectByIndex(1); 
+		select.selectByIndex(4); 
 		
 	}
 	@Test
